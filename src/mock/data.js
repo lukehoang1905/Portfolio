@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Luke Hoang',
+  subtitle: "I'm a Full-stack Web Developer",
   cta: '',
 };
 
@@ -28,21 +28,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.jpg',
+    title: 'Github Issues',
+    info:
+      'Web app retrieve Issues fron Github and allow user to highlight selection. The selection history is recorded whenever there is a select. Double select an item will toogle highlight.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lukehoang1905/Github-issue-QuadAi', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'E-learning Basketball',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Catalina-Final/TuanHoang-eLearning-FE', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
