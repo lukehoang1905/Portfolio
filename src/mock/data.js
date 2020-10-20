@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Luke Hoang',
-  subtitle: 'I create website for business and companies. Innovation is my passion',
+  subtitle: 'I create website for business. Innovation is my passion',
   cta: '',
 };
 
@@ -22,7 +22,7 @@ export const aboutData = {
     "I graduated as a Bachelor of Commerce from Griffith University in Australia. Although I have experiences working as Accountant and Auditor, I've always found myself reading and learning about new technology in computer science. During the quarantine of Covid pandemic, I have took my first course in computer science , Havard CS50, on coursera and imediately got sucked into programming.",
   paragraphTwo:
     'I decided to take the web developing bootcamps at CoderSchool and made the career change as the more I learn, code, and debug , the more I see myself as a programmer. From zero code, I have made many projects that filled with codes and features. As my bootcamp end, I am advancing my web developing journey by actively looking for an opportunity to work as a Junior Frontend/ Full-stack Web Developer.',
-  paragraphThree: 'JavaScript, NodeJs, ReactJs, MongoDb, ReactJs, C, Python,',
+  paragraphThree: 'JavaScript, NodeJs, ReactJs, MongoDb, ReactJs, C, Python.',
   resume: 'https://drive.google.com/file/d/1afdNIBBUfVGY2mLiVTayq6Z0bRRgkmfe/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -82,28 +82,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/GrillardinT/',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'twitter',
+      url: 'https://twitter.com/shokode',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukehoang195/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lukehoang1905',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
