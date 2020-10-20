@@ -33,7 +33,7 @@ export const projectsData = [
     info:
       'Web app retrieve Issues fron Github and allow user to highlight selection. The selection history is recorded whenever there is a select. Double select an item will toogle highlight.',
     info2: '',
-    url: '',
+    url: 'https://github-issue.netlify.app/',
     repo: 'https://github.com/lukehoang1905/Github-issue-QuadAi', // if no repo, the button will not show up
   },
   {
@@ -43,17 +43,27 @@ export const projectsData = [
     info: '2nd place project in the full-stack web development bootcamp at CoderSchool. ',
     info2:
       'An e-learning platform for basketball player. Courses for student to enroll in. Dashboard for Teacher to manage assigned classes. Admin dashboard for assignment, mannagement and other analytics reviews.',
-    url: '',
+    url: 'https://eball.netlify.app/',
     repo: 'https://github.com/Catalina-Final/TuanHoang-eLearning-FE', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: '',
-    info: '',
+    title: 'Social Blogs',
+    info:
+      'A full-stack social blogging platform that allow user to write, read, edit and react on blogs from other users.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://blog-jeesun.netlify.app/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Movie Ranking',
+    info: 'A website for user to check new trailer, reviews and rating from the latest movies.',
+    info2: 'The layout is similar to netflix official website',
+    url: 'https://blog-jeesun.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
