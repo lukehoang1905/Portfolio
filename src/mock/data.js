@@ -38,16 +38,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project2.jpg',
     title: 'E-learning Basketball',
-    info: '',
-    info2: '',
+    info: '2nd place project in the full-stack web development bootcamp at CoderSchool. ',
+    info2:
+      'An e-learning platform for basketball player. Courses for student to enroll in. Dashboard for Teacher to manage assigned classes. Admin dashboard for assignment, mannagement and other analytics reviews.',
     url: '',
     repo: 'https://github.com/Catalina-Final/TuanHoang-eLearning-FE', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project3.jpg',
     title: '',
     info: '',
     info2: '',
