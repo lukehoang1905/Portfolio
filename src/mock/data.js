@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project5.jpg',
+    title: 'Discord Chat App',
+    info:
+      'Chat app with discord layout. Allow Google authentication, front-end project. Back-end powered by FireBase',
+    info2: 'React, Redux, Firebase, Javascript',
+    url: 'https://discord-clone-193d0.web.app/',
+    repo: 'https://github.com/lukehoang1905/discord-clone', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.jpg',
     title: 'Github Issues',
     info:
