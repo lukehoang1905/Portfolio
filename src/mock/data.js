@@ -42,8 +42,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project6.jpg',
     title: 'Camera Landing',
-    info: 'Product page for camera store.',
-    info2: 'HTML SASS-CSS',
+    info: 'Responsive product page for camera store.',
+    info2: 'HTML SCSS',
     url: 'https://github.com/lukehoang1905/Camera',
     repo: 'https://cam3ra.netlify.app/', // if no repo, the button will not show up
   },
