@@ -40,6 +40,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project6.jpg',
+    title: 'Camera Landing',
+    info: 'Product page for camera store.',
+    info2: 'HTML SASS-CSS',
+    url: 'https://github.com/lukehoang1905/Camera',
+    repo: 'https://cam3ra.netlify.app/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.jpg',
     title: 'Github Issues',
     info:
